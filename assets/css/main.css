@@ -1946,7 +1946,7 @@
 			border-radius: 3px;
 			display: block;
 		}
-
+		
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1978,7 +1978,20 @@
 			}
 
 /* List */
-
+		.thumbnail img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+					}
+					.thumbnail:hover img {
+    -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+     transform:scale(2);
+									}
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
